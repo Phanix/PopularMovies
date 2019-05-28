@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="@string/popular"
+    android:id="@+id/action_popular"
+    app:showAsAction="collapseActionView"></item>
+
+    <item android:title="@string/top_rated"
+        android:id="@+id/action_top_rated"
+        app:showAsAction="collapseActionView"></item>
+
+    <item android:title="Favorites"
+        android:id="@+id/action_favorites"
+        app:showAsAction="collapseActionView"></item>
+</menu>
